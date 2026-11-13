@@ -1,0 +1,14 @@
+{
+  "name": "tc-kimlik-no",
+  "version": "1.0.0",
+  "description": "TC kimlik no, yabancı kimlik no (YKN), vergi kimlik no (VKN), TR IBAN, kart numarası ve test kişisi üretme ve doğrulama kütüphanesi.",
+  "type": "module",
+  "main": "js/index.js",
+  "exports": "./js/index.js",
+  "bin": { "tc-kimlik-no": "js/cli.js" },
+  "files": ["js/index.js", "js/cli.js"],
+  "scripts": { "test": "node --test js/test.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["tc-kimlik-no", "tckn", "tc-kimlik-dogrulama", "vkn", "vergi-kimlik-no", "iban", "luhn", "test-verisi", "sanal-pos"],
+  "license": "MIT"
+}

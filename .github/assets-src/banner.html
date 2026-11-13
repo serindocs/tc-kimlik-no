@@ -1,0 +1,28 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="style.css"><style>
+html,body{width:1280px;height:420px}
+.c{position:relative;width:1280px;height:420px;padding:56px 64px;overflow:hidden}
+.c::before{content:"";position:absolute;inset:0;opacity:.55;-webkit-mask:linear-gradient(90deg,transparent 30%,#000);mask:linear-gradient(90deg,transparent 30%,#000)}
+.badge{display:inline-flex;align-items:center;gap:10px;font:600 18px/1 'IBM Plex Mono';color:var(--red);background:var(--red2);border-radius:8px;padding:9px 12px}
+.badge b{width:12px;height:12px;border-radius:50%;background:var(--red)}
+h1{margin-top:22px;font:700 84px/1 'Space Grotesk';letter-spacing:-.045em}
+h1 span{color:var(--red)}
+p{margin-top:16px;font:500 26px/1.35 'Space Grotesk';color:var(--mut);width:640px}
+.langs{position:absolute;left:64px;bottom:52px;display:flex;gap:12px}
+.slots{position:absolute;right:64px;top:70px;display:grid;grid-template-columns:repeat(4,64px);gap:10px;transform:rotate(-6deg)}
+.slots .slot{height:64px;font-size:26px}
+.cap{position:absolute;right:70px;bottom:46px;font:600 17px/1.4 'IBM Plex Mono';color:var(--mut);text-align:right}
+.cap em{font-style:normal;color:var(--red)}
+</style></head><body><div class="c grid" style="background-color:var(--bg)">
+<div style="position:relative">
+<span class="badge"><b></b>açık kaynak · bağımlılık yok</span>
+<h1>tc-kimlik-no<span>.</span></h1>
+<p>TC kimlik no, YKN, VKN, IBAN, kart ve test kişisi üret &amp; doğrula.</p>
+</div>
+<div class="langs"><span class="pill"><i style="background:#f1c40f"></i>JavaScript</span><span class="pill"><i style="background:#3572a5"></i>Python</span><span class="pill"><i style="background:#777bb4"></i>PHP</span></div>
+<div class="slots">
+ <div class="slot">·</div><div class="slot">·</div><div class="slot">·</div><div class="slot">·</div>
+ <div class="slot">·</div><div class="slot">·</div><div class="slot">·</div><div class="slot">·</div>
+ <div class="slot">·</div><div class="slot k">✓</div><div class="slot k">✓</div><div class="slot" style="visibility:hidden"></div>
+</div>
+<div class="cap">9 hane + <em>2 kontrol hanesi</em></div>
+</div></body></html>

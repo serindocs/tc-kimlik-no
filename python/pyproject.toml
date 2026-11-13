@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tc-kimlik-no"
+version = "1.0.0"
+description = "TC kimlik no, YKN, VKN, TR IBAN, kart numarası ve test kişisi üretme ve doğrulama."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["tc kimlik no", "tckn", "vkn", "iban", "luhn", "test verisi"]
+
+[project.urls]
+Homepage = "https://github.com/serindocs/tc-kimlik-no"
+
+[tool.setuptools]
+py-modules = ["tc_kimlik_no"]

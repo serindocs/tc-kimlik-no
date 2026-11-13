@@ -1,0 +1,9 @@
+{
+  "name": "serindocs/tc-kimlik-no",
+  "description": "TC kimlik no, YKN, VKN, TR IBAN, kart numarası ve test kişisi üretme ve doğrulama.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["tc kimlik no", "tckn", "vkn", "iban", "luhn", "test verisi"],
+  "require": { "php": ">=8.1" },
+  "autoload": { "classmap": ["php/TcKimlikNo.php"] }
+}

@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+*.pyc
+vendor/
+.DS_Store
+build/
+*.egg-info/

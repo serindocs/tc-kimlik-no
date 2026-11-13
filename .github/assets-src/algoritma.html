@@ -1,0 +1,26 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><link rel="stylesheet" href="style.css"><style>
+html,body{width:1280px;height:500px}
+.c{width:1280px;height:500px;padding:56px 64px;background:var(--bg)}
+h2{font:700 40px/1 'Space Grotesk';letter-spacing:-.03em}
+.row{display:grid;grid-template-columns:repeat(11,1fr);gap:12px;margin-top:34px}
+.h{height:84px;border-radius:14px;border:2px solid #d9d0c4;background:#fff;display:grid;place-content:center;text-align:center;font:600 24px/1 'IBM Plex Mono'}
+.h small{display:block;margin-top:8px;font:500 14px/1 'Space Grotesk';color:var(--mut)}
+.h.t{background:var(--dark);border-color:var(--dark);color:#fff}.h.t small{color:#bdb6c0}
+.h.k{background:var(--red);border-color:var(--red);color:#fff}.h.k small{color:#ffd7d9}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:34px}
+.b{background:#fff;border:2px solid var(--line);border-radius:18px;padding:26px 28px}
+.b h3{font:700 26px/1 'Space Grotesk';display:flex;gap:12px;align-items:center}
+.b h3 span{font:600 16px/1 'IBM Plex Mono';background:var(--red);color:#fff;border-radius:6px;padding:7px 9px}
+.f{margin-top:18px;font:500 22px/1.55 'IBM Plex Mono';background:var(--bg);border-radius:10px;padding:14px 18px}
+.f em{font-style:normal;color:var(--red)}
+.b p{margin-top:14px;font:500 18px/1.4 'Space Grotesk';color:var(--mut)}
+</style></head><body><div class="c">
+<h2>Kontrol haneleri nasıl hesaplanır?</h2>
+<div class="row">
+<div class="h t">1<small>tek</small></div><div class="h">2<small>çift</small></div><div class="h t">3<small>tek</small></div><div class="h">4<small>çift</small></div><div class="h t">5<small>tek</small></div><div class="h">6<small>çift</small></div><div class="h t">7<small>tek</small></div><div class="h">8<small>çift</small></div><div class="h t">9<small>tek</small></div><div class="h k">10<small>kontrol</small></div><div class="h k">11<small>kontrol</small></div>
+</div>
+<div class="cols">
+<div class="b"><h3><span>10</span>Onuncu hane</h3><div class="f">(tek × 7 − çift) <em>mod 10</em></div><p>Kutulardaki sayılar hanenin sırasıdır, değeri değil.</p></div>
+<div class="b"><h3><span>11</span>On birinci hane</h3><div class="f">(ilk 10 hane toplamı) <em>mod 10</em></div><p>Sonuç her zaman çift bir rakamdır.</p></div>
+</div>
+</div></body></html>

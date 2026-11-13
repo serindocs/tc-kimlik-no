@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&display=block');
+:root{--bg:#fbf7f2;--card:#ffffff;--ink:#1b1b1f;--mut:#6b6670;--line:#e8e1d8;--red:#e30a17;--red2:#fde7e7;--dark:#1b1b1f}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',sans-serif;overflow:hidden}
+.mono{font-family:'IBM Plex Mono',monospace}
+.grid{background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:40px 40px}
+.slot{border-radius:14px;border:2px solid #d9d0c4;background:var(--card);display:grid;place-items:center;font:600 30px/1 'IBM Plex Mono',monospace;color:#b3a99c}
+.slot.k{background:var(--red);border-color:var(--red);color:#fff}
+.pill{display:inline-flex;align-items:center;gap:10px;font:600 20px/1 'IBM Plex Mono',monospace;background:var(--card);border:2px solid var(--line);border-radius:999px;padding:11px 18px}
+.pill i{width:10px;height:10px;border-radius:50%;display:inline-block}
